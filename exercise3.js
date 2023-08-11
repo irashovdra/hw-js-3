@@ -4,17 +4,10 @@ console.log(SAVED_PASSWORD);
 let password = 123;
 console.log(password);
 
-let isMatch = true;
+let isMatch = SAVED_PASSWORD == password;
 console.log(isMatch);
 
-SAVED_PASSWORD = 10;
-console.log(SAVED_PASSWORD);
+password = 10;
 
-isMatch = false;
+isMatch = SAVED_PASSWORD == password;
 console.log(isMatch);
-
-// console.log(SAVED_PASSWORD == password);
-
-// password = 10;
-
-// console.log(SAVED_PASSWORD == password);
