@@ -1,3 +1,8 @@
-let passed = 18;
-passed <= 18;
+let age = prompt("What is your age?");
+age >= 18;
+console.log(age);
+
+let passed = age >= 18;
 console.log(passed);
+
+
